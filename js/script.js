@@ -24,7 +24,7 @@ const products2 = ['spaghetti', 'pomodoro', 'parmiggiano'];
 
 // creo una variabile d'appoggio
 
-let listproducts1 = '';
+let listproducts1 = '<ul>';
 
 // creo un ciclo
 
@@ -32,13 +32,15 @@ for(let i = 0; i < products1.length; i++){
 
     // monto la lista all'interno dell'elemento
 
-    listproducts1 += ' ' + products1[i];
+    listproducts1 += `<li>${products1[i]}</li>`;
 
 };
 
+listproducts1 += '</ul>'
+
 //stampo la lista
 
-forlistElement.innerText += listproducts1;
+forlistElement.innerHTML += listproducts1;
 
 ///---------------------------------------------------
 
@@ -50,7 +52,7 @@ let i = 0;
 
 // creo una variabile vuota
 
-let listproducts2 = '';
+let listproducts2 = '<ul>';
 
 //fintanto che non raggiungo la lunghezza totale dell'array
 
@@ -58,7 +60,7 @@ while(products2[i]){
 
     //monto la lista all'interno dell'elemento
 
-    listproducts2 += ' ' + products2[i];
+    listproducts2 += `<li>${products2[i]}</li>`;
 
     //incremento la lista
 
@@ -66,9 +68,11 @@ while(products2[i]){
 
 };
 
+listproducts2 += '</ul>'
+
 //stampo la lista
 
-whilelistElement.innerText += listproducts2;
+whilelistElement.innerHTML += listproducts2;
 
 ///-------------------------------------------------
 
