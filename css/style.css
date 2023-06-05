@@ -14,11 +14,8 @@ body{
     
 }
 
-p{
-    font-size: 1.4rem;
-    margin: 15px 0;
-    rotate: 2deg;
-    padding-left: 20px;
+h1{
+    color: red;
 }
 
 /* List */
@@ -29,8 +26,16 @@ p{
     background-size: cover;
     width: 600px;
     height: 640px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+}
+
+#market-list-1,
+#market-list-2 {
+    position: relative;
+    left: 30%;
+    top: 22%;
+    rotate: 2deg;
+}
+
+#market-list-1{
+    margin-bottom: 53px;
 }
