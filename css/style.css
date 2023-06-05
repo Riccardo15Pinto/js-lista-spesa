@@ -7,3 +7,30 @@
 }
 
 /* Genereics */
+
+body{
+    font-family: cursive;
+    background-image: url('https://dmrqkbkq8el9i.cloudfront.net/Pictures/2000xAny/9/2/9/271929_supermarketaisleshelves_521159.jpg');
+    
+}
+
+p{
+    font-size: 1.4rem;
+    margin: 15px 0;
+    rotate: 2deg;
+    padding-left: 20px;
+}
+
+/* List */
+
+.list{
+    margin: 0 auto;
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/31/15/13/memory-1293086_640.png');
+    background-size: cover;
+    width: 600px;
+    height: 640px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
