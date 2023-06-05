@@ -38,7 +38,7 @@ for(let i = 0; i < products1.length; i++){
 
 //stampo la lista
 
-forlistElement.innerText = listproducts1;
+forlistElement.innerText += listproducts1;
 
 ///---------------------------------------------------
 
@@ -68,7 +68,7 @@ while(products2[i]){
 
 //stampo la lista
 
-whilelistElement.innerText = listproducts2;
+whilelistElement.innerText += listproducts2;
 
 ///-------------------------------------------------
 
